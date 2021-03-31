@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Bài tập 1</h3>
+<script>
+    let array = [0,2,3,4,5,6,9,10];
+    function findMax(array) {
+        let max = array[0];
+        for (let i = 1; i < array.length; i++) {
+            if (array[i] > max) {
+                max = array[i];
+            }
+
+        }
+        return max;
+    }
+    console.log(findMax(array));
+</script>
+</body>
+</html>
